@@ -4,7 +4,7 @@ import {Cards} from "./Cards.tsx";
 
 export function TechnicalSkills() {
     return (
-        <div className="flex flex-col px-7">
+        <div className="flex flex-col px-7 h-screen">
             <div className="flex items-center">
                 <div className="h-px w-5 bg-blue-500"></div>
                 <MiniTitle>Technical Skills </MiniTitle>

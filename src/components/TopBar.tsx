@@ -2,7 +2,7 @@ import {Button} from "./Button.tsx";
 
 export function TopBar() {
     return (
-        <div className="fixed w-full flex justify-between">
+        <div className="fixed w-full flex justify-between bg-black">
             <div>
                 <p className="text-gray-500 p-5 text-sm">~/rahimi-ayob</p>
             </div>
