@@ -19,7 +19,7 @@ export function TopBar() {
                 <div>
                     <p className="text-gray-500 p-5 text-sm">~/rahimi-ayob</p>
                 </div>
-                <div className="hidden md:flex mx-2 ">
+                <div className="hidden md:flex mx-2 p-2 ">
                     <Button onClick = {() => scrollTo("hero")}> Home </Button>
                     <Button onClick = {() => scrollTo("about")}> About </Button>
                     <Button onClick = {() => scrollTo("skills")}> Skills </Button>
