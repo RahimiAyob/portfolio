@@ -23,30 +23,33 @@ export function TopBar() {
                     <Button onClick = {() => scrollTo("hero")}> Home </Button>
                     <Button onClick = {() => scrollTo("about")}> About </Button>
                     <Button onClick = {() => scrollTo("skills")}> Skills </Button>
-                    <Button> Projects </Button>
-                    <Button> Journey </Button>
-                    <Button> Contact </Button>
+                    <Button onClick = {() => scrollTo("projects")}> Projects </Button>
+                    {/*<Button> Journey </Button>*/}
+                    <Button onClick = {() => scrollTo("contact")}> Contact </Button>
                 </div>
             </div>
             {/*small screen*/}
             <div className="py-2 fixed right-0 md:hidden z-100 ">
                 <Hamburger toggled={isOpen} toggle = {setOpen} size={24} color="#6b7280"  />
             </div>
+            <div>
                 {isOpen && (
                     <div>
                         <div className="inset-0 z-40 bg-black/30 fixed" onClick={() => setOpen(false)}/>
                         <div className="items-center z-50 md:hidden fixed right-0 w-48 bg-gray-600 inline p-10 text-lg space-y-1 h-screen" >
-                            <ul>
-                                <Button>Home</Button>
-                                <Button> About </Button>
-                                <Button> Skills </Button>
-                                <Button> Projects </Button>
-                                <Button> Journey </Button>
-                                <Button> Contact </Button>
+                            <ul className="flex flex-col gap-5 my-10 text-zinc-300">
+                                <button onClick={() => scrollTo("hero")}>Home</button>
+                                <button onClick={() => scrollTo("about")}> About </button>
+                                <button onClick={() => scrollTo("skills")}> Skills </button>
+                                <button onClick={() => scrollTo("projects")} > Projects </button>
+                                {/*<Button> Journey </Button>*/}
+                                <button onClick={() => scrollTo("contact")} > Contact </button>
                             </ul>
                         </div>
                     </div>
                 )}
+
+            </div>
         </div>
 
     )

@@ -7,7 +7,7 @@ export function Hero() {
     return (
         <div id="hero" className="flex flex-col justify-center items-center h-screen text-white text-center max-w-2xl mx-auto">
             <Terminal className="text-zinc-50 group-hover: " size={64}/>
-            <h1 className="text-5xl font-bold m-5">Muhammad Rahimi bin Mohamad Ayob</h1>
+            <h1 className="text-3xl md:text-5xl font-bold md:m-5 m-8">Muhammad Rahimi bin Mohamad Ayob</h1>
             <p className="text-blue-400">Semester 4 Computer Science (CS230) Student | Frontend Developer | AI &
                 Software Exploration Enthusiast</p>
             <p className="text-zinc-500 py-3">I'm a Computer Science student from UiTM who enjoys building modern web
