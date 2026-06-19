@@ -4,18 +4,18 @@ import {Cards} from "./Cards.tsx";
 
 export function TechnicalSkills() {
     return (
-        <div id="skills" className="flex flex-col px-7 h-screen scroll-mt-20">
-            <div className="flex items-center">
+        <div id="skills" className="flex flex-col px-7 h-full scroll-mt-20 items-center">
+            <div className="flex items-center max-w-200 w-full">
                 <div className="h-px w-5 bg-blue-500"></div>
                 <MiniTitle>Technical Skills </MiniTitle>
             </div>
-            <div className="flex flex-col space-y-5 max-w-120">
+            <div className="flex flex-col space-y-5 max-w-200 w-full">
                 <MiniDescription>
                     A realistic look at my stack and toolsets, cultivated
                     through active use and documentation parsing.
                 </MiniDescription>
             </div>
-            <div className="grid grid-cols-2 gap-4 my-5">
+            <div className="grid grid-cols-2 gap-4 my-5 max-w-200 w-full">
                 <Cards
                     title="&lt;/&gt; LANGUAGES"
                     items={["JavaScript", "Python", "Java", "C++", "HTML", "CSS"]}

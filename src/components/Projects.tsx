@@ -4,9 +4,9 @@ import dummy from '../assets/dummy.png';
 
 export function Projects(){
     return(
-        <div className="px-7 min-h-screen scroll-m-20" id="projects">
-            <div>
-                <div className="flex items-center">
+        <div className="px-7 min-h-screen scroll-m-20 items-center justify-center flex flex-col"  id="projects">
+            <div className="w-full max-w-200 flex flex-col justify-center">
+                <div className="flex items-center ">
                     <div className="h-px w-5 bg-blue-500"></div>
                     <MiniTitle>Featured Projects</MiniTitle>
                 </div>

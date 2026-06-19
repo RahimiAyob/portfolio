@@ -3,12 +3,12 @@ import {MiniDescription} from "./MiniDescription.tsx";
 
 export function AboutMe() {
     return (
-        <div id="about" className="flex flex-col px-7 h-screen scroll-mt-20">
-            <div className="flex items-center">
+        <div id="about" className="flex flex-col h-screen scroll-mt-20 items-center px-8">
+            <div className="flex items-center max-w-120 w-full">
                 <div className="h-px w-5 bg-blue-500"></div>
                 <MiniTitle>About me</MiniTitle>
             </div>
-            <div className="flex flex-col space-y-5 max-w-120">
+            <div className="flex flex-col w-full max-w-120 md:w-auto space-y-5 text-left">
                 <MiniDescription>
                     I started exploring software development around the age of 15
                     through curiosity and experimentation.
