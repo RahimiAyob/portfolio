@@ -3,7 +3,7 @@ import {MiniDescription} from "./MiniDescription.tsx";
 
 export function AboutMe() {
     return (
-        <div className="flex flex-col px-7 h-screen">
+        <div id="about" className="flex flex-col px-7 h-screen scroll-mt-20">
             <div className="flex items-center">
                 <div className="h-px w-5 bg-blue-500"></div>
                 <MiniTitle>About me</MiniTitle>

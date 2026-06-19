@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.1",
+    "hamburger-react": "^2.5.2",
+    "hamburgers": "^1.2.1",
     "lucide-react": "^1.18.0",
     "react": "^19.2.6",
+    "react-burger-menu": "^3.1.0",
     "react-dom": "^19.2.6",
     "tailwindcss": "^4.3.1"
   },
@@ -20,6 +23,7 @@
     "@eslint/js": "^10.0.1",
     "@types/node": "^24.12.3",
     "@types/react": "^19.2.14",
+    "@types/react-burger-menu": "^2.8.7",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
     "eslint": "^10.3.0",

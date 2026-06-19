@@ -8,7 +8,7 @@ export default function App(){
         <div>
             <div>
                 <TopBar />
-                <Hero />
+                <Hero  />
                 <AboutMe />
                 <TechnicalSkills />
             </div>

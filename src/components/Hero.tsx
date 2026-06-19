@@ -3,9 +3,10 @@ import githubwhite from "../assets/github-white-icon.png";
 import linkedinwhite from "../assets/linkedinwhite.png";
 
 export function Hero() {
+
     return (
-        <div className="flex flex-col justify-center items-center h-screen text-white text-center max-w-2xl mx-auto">
-            <Terminal className="text-zinc-50 group-hover: text-blue-400" size={64}/>
+        <div id="hero" className="flex flex-col justify-center items-center h-screen text-white text-center max-w-2xl mx-auto">
+            <Terminal className="text-zinc-50 group-hover: " size={64}/>
             <h1 className="text-5xl font-bold m-5">Muhammad Rahimi bin Mohamad Ayob</h1>
             <p className="text-blue-400">Semester 4 Computer Science (CS230) Student | Frontend Developer | AI &
                 Software Exploration Enthusiast</p>
@@ -17,8 +18,8 @@ export function Hero() {
                 <button className="bg-zinc-900 px-5 py-2 text-sm border border-zinc-800 rounded-md">View
                     Projects &gt; </button>
                 <button className="bg-blue-500 px-5 text-sm border border-zinc-800 rounded-md">Contact Me</button>
-                <button className="size-10"><img src={githubwhite}/></button>
-                <button className="size-10"><img src={linkedinwhite}/></button>
+                <button className="size-10"><img src={githubwhite} alt="githubwhite"/></button>
+                <button className="size-10"><img src={linkedinwhite} alt="linkedinwhite"/></button>
             </div>
         </div>
     )

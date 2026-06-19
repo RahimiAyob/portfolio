@@ -1,7 +1,12 @@
 import type {ReactNode} from "react";
 
-export function Button({children}: { children: ReactNode }) {
+type ButtonProps = {
+    children: ReactNode;
+    onClick?: () => void;
+};
+
+export function Button({children , onClick}:  ButtonProps ) {
     return (
-        <button className="text-gray-400 px-3 py-5 text-sm">{children}</button>
+        <button onClick={onClick} className="text-gray-400 px-3 py-5 text-sm">{children}</button>
     )
 }
